@@ -29,6 +29,9 @@ config.vm.define "box1" do |box1|
 
   end
 
+# Comment below from Svetlana
+# Your error is below.  You need to change vvm to vm  
+
 config.vvm.define "box2" do |box2|
 
     box2.vm.box="debian/jessie64"
