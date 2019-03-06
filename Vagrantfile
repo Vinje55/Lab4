@@ -29,7 +29,7 @@ config.vm.define "box1" do |box1|
 
   end
 
-config.vm.define "box2" do |box2|
+config.vvm.define "box2" do |box2|
 
     box2.vm.box="debian/jessie64"
 box2.vm.provision "shell", inline: <<-SHELL
